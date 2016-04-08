@@ -1,0 +1,43 @@
+{
+  "name": "scrum-dash",
+  "version": "0.0.1",
+  "description": "Dashboard for Scrum purposes",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlvandenberg/scrum-dash.git"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.14",
+    "systemjs": "0.19.25",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.10"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.12"
+  },
+  "keywords": [
+    "scrum",
+    "dashboard",
+    "dash"
+  ],
+  "author": "Dennis van den Berg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlvandenberg/scrum-dash/issues"
+  },
+  "homepage": "https://github.com/dlvandenberg/scrum-dash#readme"
+}

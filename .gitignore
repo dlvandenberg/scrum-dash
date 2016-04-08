@@ -1,0 +1,7 @@
+# Log files
+.logs
+.log
+
+# NodeJS generated files
+node_modules
+typings
