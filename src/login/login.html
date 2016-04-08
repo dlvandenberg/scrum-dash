@@ -1,0 +1,14 @@
+<div>
+	<h3>Login</h3>
+	<form role="form" (submit)="login($event, username.value, password.value)">
+		<div>
+			<label for="username">Username</label>
+			<input type="text" #username id="username" placeholder="Username">
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input type="password" #password id="password" placeholder="Password">
+		</div>
+		<button type="submit">Submit</button>
+	</form>
+</div>
